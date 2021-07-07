@@ -698,7 +698,7 @@ function paging_get_config($engine) {
 
 		$extpaging = 'ext-paging';
 		if(!empty($paging_groups)) {
-			$ext->addInclude('from-internal-noxfer-additional',$extpaging);
+			$ext->addInclude('from-internal-additional',$extpaging);
 		}
 		foreach ($paging_groups as $thisgroup) {
 			$grp=trim($thisgroup['page_group']);
